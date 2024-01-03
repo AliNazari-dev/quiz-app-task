@@ -92,7 +92,7 @@ const Question = () => {
             <div
               className='bg-red-600 h-3 rounded-lg transition-all'
               style={{ width: `${progress * 20}%` }}></div>
-            <div className='text-center mt-2 font-bold'>time remainig : {time} s</div>
+            <div className='text-center mt-2 font-bold'>lost time : {time} s</div>
           </div>
           <div className='w-full flex justify-center items-center flex-col gap-5'>
             {answers.map((answer, idx) => (
